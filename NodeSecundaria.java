@@ -4,8 +4,8 @@ public class NodeSecundaria {
     private NodeSecundaria prox;
     // métodos da classe (gets, sets, construtor)
  
-    public NodeSecundaria(Filme f){
-        this.info = f;
+    public NodeSecundaria(Filme filme){
+        this.info = filme;
     }
     public void setAnt(NodeSecundaria ant){
         this.ant = ant;
